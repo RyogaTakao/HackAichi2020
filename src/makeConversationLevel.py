@@ -10,6 +10,8 @@ time.sleep(10)
 client_julius = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_julius.connect(('localhost', 10500))
 
+arry_word = []
+
 try:
     data = ""
     while True:
@@ -22,12 +24,14 @@ try:
                     line = line[index+6:line.find('"', index+6)]
                     recog_text = recog_text + line
             print("認識結果: " + recog_text)
+            arry_word.append(recog_text)
             data =""
         else:
             data += str(client_julius.recv(1024).decode('utf-8'))
             print('NotFound')
 except KeyboardInterrupt:
     print('finished')
+    print(arry_word)
     client_julius.send("DIE".encode('utf-8'))
     client_julius.close()
     proc_julius.kill()
