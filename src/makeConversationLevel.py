@@ -3,6 +3,7 @@ import subprocess
 import time
 
 # juliusローカルサーバの立ち上げ
+subprocess.run(['sudo', 'modprobe', 'snd-pcm-oss'])
 proc_julius = subprocess.Popen(['julius', '-C', 'main.jconf', '-C', 'am-dnn.jconf', '-module', '-charconv', 'utf-8', 'sjis', '-dnnconf', 'julius.dnnconf'])
 time.sleep(10)
 
