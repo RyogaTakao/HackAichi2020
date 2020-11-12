@@ -9,7 +9,6 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 # juliusローカルサーバの立ち上げ
 subprocess.run(['sudo', 'modprobe', 'snd-pcm-oss'])
 proc_julius = subprocess.Popen(['julius', '-C', '/home/pi/dictation-kit-v4.3.1-linux/main.jconf', '-C', '/home/pi/dictation-kit-v4.3.1-linux/am-gmm.jconf', '-module'])
-# proc_julius = subprocess.Popen(['julius', '-C', 'main.jconf', '-C', 'am-dnn.jconf', '-module', '-charconv', 'utf-8', 'sjis', '-dnnconf', 'julius.dnnconf'])
 time.sleep(5)
 
 # Juliusにソケット通信で接続

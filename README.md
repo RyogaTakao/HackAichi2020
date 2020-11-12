@@ -60,6 +60,7 @@ HackAichi2020で使用するリポジトリ
 - Node-RED
 - kioskモード
 - julius
+- cloudant
 
 #### API・データ
 
@@ -69,14 +70,21 @@ HackAichi2020で使用するリポジトリ
 - ラズベリーパイカメラ
 - ラズベリーパイ用 5インチ DSIタッチLCDスクリーン
 - USBマイク
-- LED
+- LEDライト
 
 #### その他
 
-#### 必須なセットアップ
-$ npm install node-red-node-cf-cloudant
+- なし
 
-[JELLYWAREのサイト](https://jellyware.jp/kurage/raspi/julius.html)を参考に, 上からjuliusのインストールまでを行う
+### 必須なセットアップ
+
+- 使用したデータベースノードのインストール
+
+    $ npm install node-red-node-cf-cloudant
+
+- 使用した音声認識エンジンのインストール
+
+    [JELLYWAREのサイト](https://jellyware.jp/kurage/raspi/julius.html)を参考に, 上からjuliusのインストールまでを行う
 
 ### 独自技術
 
