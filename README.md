@@ -6,7 +6,7 @@ HackAichi2020で使用するリポジトリ
 
 ## アーキテクチャ
 
-![アーキテクチャ](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)
+[![アーキテクチャ](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)
 
 ## 選択テーマ
 
@@ -15,6 +15,8 @@ HackAichi2020で使用するリポジトリ
 ## 製品概要
 
 ### 雑談 × 飲み物 × TECH
+
+[![×Tech](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/×Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/×Tech.png?raw=true)
 
 ### 背景(製品開発のきっかけ, 課題等）
 
