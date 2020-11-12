@@ -25,8 +25,9 @@ def run_cmd_func (cmd , status) :
 # 実行フローはここから========================================
 
 # Node-REDの起動コマンドを実行（同期処理）
-# nodered_start_cmd = 'node-red-pi --max-old-space-size=256'
-# run_cmd_func(nodered_start_cmd, 'sync')
+nodered_start_cmd = 'node-red-pi --max-old-space-size=256'
+run_cmd_func(nodered_start_cmd, 'async')
+time.sleep(9)
 
 # 背景をkioskモードで表示するコマンドを実行
 chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/home'
