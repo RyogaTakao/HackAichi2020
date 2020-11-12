@@ -67,7 +67,7 @@ HackAichi2020で使用するリポジトリ
 
 #### その他
 
-### セットアップ
+#### セットアップ
 $ npm install node-red-node-cf-cloudant
 
 ### 独自技術
