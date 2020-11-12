@@ -16,7 +16,7 @@ HackAichi2020で使用するリポジトリ
 
 ### 雑談 × 飲み物 × TECH
 
-[![×Tech](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/×Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/×Tech.png?raw=true)
+[![×Tech](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/%C3%97Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/%C3%97Tech.png?raw=true)
 
 ### 背景(製品開発のきっかけ, 課題等）
 
