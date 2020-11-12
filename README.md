@@ -6,6 +6,8 @@ HackAichi2020で使用するリポジトリ
 
 ## アーキテクチャ
 
+![アーキテクチャ](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)
+
 ## 選択テーマ
 
 ### 三密を避けたリモートワークで失われたFACE TO FACEコミュニケーションをAI/IoTを使って復活せよ!
