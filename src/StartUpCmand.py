@@ -34,7 +34,7 @@ run_cmd_func(nodered_start_cmd, 'async')
 time.sleep(9)
 
 # 背景をkioskモードで表示するコマンドを実行
-chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/home'
+chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk https://localhost:1880/home'
 run_cmd_func(chromium_start_cmd, 'async')
 
 # 永久ループでGPIOをの状態をチェックする
@@ -43,7 +43,7 @@ while True :
     sw_1 = GPIO.input(gpio_sw)
     # 物が置いてなかったら
     if sw_1 == 1 :
-        chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/clock'
+        chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk https://localhost:1880/clock'
         run_cmd_func(chromium_start_cmd, 'async')
         print('clock')
         while True :
@@ -51,7 +51,7 @@ while True :
             # スイッチの状態を取得
             sw_2 = GPIO.input(gpio_sw)
             if sw_2 == 0 :
-                chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/home'
+                chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk https://localhost:1880/home'
                 run_cmd_func(chromium_start_cmd, 'async')
                 print('home')
                 break
@@ -73,17 +73,18 @@ while True :
                         with open(APP_ROOT+'/talkStatus.txt', 'r') as f:
                             status = f.readline()
                     
-                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/video-chat?status=' + status 
+                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk https://localhost:1880/video-chat?status=' + status 
                     run_cmd_func(chromium_start_cmd, 'async')
-                    chromium_start_cmd = 'python3 /home/pi/Desktop/makeConversationLevel.py'
-                    run_cmd_func(chromium_start_cmd, 'async')
+                    chromium_start_cmd = 'python3 /home/pi/HackAichi2020/src/makeConversationLevel.py'
+                    prop = run_cmd_func(chromium_start_cmd, 'async')
                     print('video')
                     for i in range(0, 300):
                         sw_4 = GPIO.input(gpio_sw)
                         if sw_4 == 0 :
-                            chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/home'
+                            chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk https://localhost:1880/home'
                             run_cmd_func(chromium_start_cmd, 'async')
                             break
                         else:
                             time.sleep(1)
+                    prop.kill()
                     break
