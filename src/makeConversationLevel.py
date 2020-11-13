@@ -7,7 +7,7 @@ import time
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # juliusローカルサーバの立ち上げ
-subprocess.run(['sudo', 'modprobe', 'snd-pcm-oss'])
+# subprocess.run(['sudo', 'modprobe', 'snd-pcm-oss'])
 proc_julius = subprocess.Popen(['julius', '-C', '/home/pi/dictation-kit-v4.3.1-linux/main.jconf', '-C', '/home/pi/dictation-kit-v4.3.1-linux/am-gmm.jconf', '-module'])
 time.sleep(5)
 
