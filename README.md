@@ -1,6 +1,6 @@
 # mugmag
 
-HackAichi2020で使用するリポジトリ
+コーヒーブレイク中に気軽に雑談ができるスマートコースター「mugmag」
 
 ## デモ動画
 
@@ -18,29 +18,35 @@ HackAichi2020で使用するリポジトリ
 
 [![×Tech](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/%C3%97Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/%C3%97Tech.png?raw=true)
 
-### 背景(製品開発のきっかけ, 課題等）
+### 背景(製品開発のきっかけ，課題等）
 
 ### 製品説明（具体的な製品の説明）
+
+本製品は，**ビデオチャットができるスマートコースター**である．
+
+- テレワークにより人との関わりが減った会社員のためのスマートコースター
+
+- コーヒーブレイク中にビデオチャットで雑談を行うことができる
 
 ### 特長
 
 1. マグカップを電話の受話器のような役割に
-    - マグカップの動作がトリガーとなり, 電話での雑談を開始
+    - マグカップの動作がトリガーとなり，電話での雑談を開始
 
 2. 通話可能な範囲を制限
-    - 1つのAPIキーの中でルームが形成されるため, 同じ設定間でのみテレビ電話が繋がる仕組み
-    そのため, 同じ組織内でのみのランダム通話が可能
+    - 1つのAPIキーの中でルームが形成されるため，同じ設定間でのみテレビ電話が繋がる仕組み
+    そのため，同じ組織内でのみのランダム通話が可能
 
 3. 会話量によりマッチング範囲を限定
     - 音声認識により会話量をテキスト形式で取得
-    文量によってレベル分けを行い, マッチングの範囲を限定
+    文量によってレベル分けを行い，マッチングの範囲を限定
 
 4. 2~4人での通話
     - 1:1による必ず話さなければならないというプレッシャーを軽減するために複数人でのランダム通話を実現
 
 5. Node-REDによる開発
     - フローによる処理の分かりやすさ
-    - JSON形式でフローが保存できるため, 共有がしやすい
+    - JSON形式でフローが保存できるため，共有がしやすい
 
 ### 解決出来ること
 
@@ -65,6 +71,7 @@ HackAichi2020で使用するリポジトリ
 - kioskモード
 - julius
 - cloudant
+- skyway
 
 #### API・データ
 
@@ -88,7 +95,7 @@ HackAichi2020で使用するリポジトリ
 
 - 使用した音声認識エンジンのインストール
 
-    [JELLYWAREのサイト](https://jellyware.jp/kurage/raspi/julius.html)を参考に, 上からjuliusのインストールまでを行う
+    [JELLYWAREのサイト](https://jellyware.jp/kurage/raspi/julius.html)を参考に，上からjuliusのインストールまでを行う
 
 ### 独自技術
 
@@ -106,8 +113,8 @@ HackAichi2020で使用するリポジトリ
 
 ### 名城大学
 
-- [RyogaTakao](https://github.com/RyogaTakao): チームリーダー, 開発サポート(フロントエンド, サーバーサイド, 組み込み)
+- [RyogaTakao](https://github.com/RyogaTakao): チームリーダー，開発サポート(フロントエンド，サーバーサイド，組み込み)
 - [YoshiharuSenna](https://github.com/YoshiharuSenna): サーバーサイド
 - [MinatoyaRyota](https://github.com/MinatoyaRyota): ハードウェア
-- [OkazakiTatsuya](https://github.com/TatsuyaOkazaki324): 組み込み, フロントエンド
-- [saki0501a](https://github.com/saki0501a): 情報収集, 資料作成
+- [OkazakiTatsuya](https://github.com/TatsuyaOkazaki324): 組み込み，フロントエンド
+- [saki0501a](https://github.com/saki0501a): 情報収集，資料作成
