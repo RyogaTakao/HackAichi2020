@@ -148,6 +148,20 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
 - アプリケーション本体の処理
 
+    - ローカル（Python，Node-RED）
+
+        - 飲み物が置かれた状態か判定
+
+        - [音声認識によるトークレベルの推定](https://github.com/RyogaTakao/HackAichi2020/blob/master/src/makeConversationLevel.py)（julius）
+
+        - 画面切り替え（kioskモード）
+
+    - Cloud上（Node-RED）
+
+        - [ビデオチャット](https://github.com/RyogaTakao/HackAichi2020/blob/master/src/video_chat.json)（skyway）
+
+        - ルーム情報の保持（IBM Cloudant）
+
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 
 - なし
