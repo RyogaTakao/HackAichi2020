@@ -73,7 +73,7 @@ while True :
                         with open(APP_ROOT+'/talkStatus.txt', 'r') as f:
                             status = f.readline()
                     
-                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/videochat?status=' + status 
+                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/video-chat?status=' + status 
                     run_cmd_func(chromium_start_cmd, 'async')
                     chromium_start_cmd = 'python3 /home/pi/Desktop/makeConversationLevel.py'
                     run_cmd_func(chromium_start_cmd, 'async')
