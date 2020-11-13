@@ -1,6 +1,10 @@
 import subprocess # コマンド実行ライブラリ
 import RPi.GPIO as GPIO # RPi.GPIOモジュールを使用
 import time # timeライブラリ
+import os
+
+# ソースファイルの場所取得
+APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # GPIOの使用するピン番号
 gpio_sw = 21
@@ -63,7 +67,15 @@ while True :
                 time.sleep(5)
                 sw_3 = GPIO.input(gpio_sw)
                 if sw_3 == 1 :
-                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/videochat'
+                    # ここでファイル読み込みする
+                    status = '0'
+                    if os.path.exists(APP_ROOT+'/talkStatus.txt') :
+                        with open(APP_ROOT+'/talkStatus.txt', 'r') as f:
+                            status = f.readline()
+                    
+                    chromium_start_cmd = 'chromium-browser --noerrdialogs --kiosk http://localhost:1880/video-chat?status=' + status 
+                    run_cmd_func(chromium_start_cmd, 'async')
+                    chromium_start_cmd = 'python3 /home/pi/Desktop/makeConversationLevel.py'
                     run_cmd_func(chromium_start_cmd, 'async')
                     print('video')
                     for i in range(0, 300):
