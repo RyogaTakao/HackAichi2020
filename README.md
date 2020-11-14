@@ -6,7 +6,7 @@
 
 ## アーキテクチャ
 
-[![アーキテクチャ](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/Architecture.png?raw=true)
+[![アーキテクチャ](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/Architecture.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/Architecture.png?raw=true)
 
 ## 選択テーマ
 
@@ -16,7 +16,7 @@
 
 ### 雑談 × 飲み物 × TECH
 
-[![×Tech](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/%C3%97Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/%C3%97Tech.png?raw=true)
+[![×Tech](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/%C3%97Tech.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/%C3%97Tech.png?raw=true)
 
 ### 背景(製品開発のきっかけ，課題等）
 
@@ -138,19 +138,19 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
     - ホーム画面
 
-    [![ホーム画面](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/home.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/home.png?raw=true)
+    [![ホーム画面](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/home.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/home.png?raw=true)
 
     - 時計画面
 
-    [![時計画面](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/clock.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/clock.png?raw=true)
+    [![時計画面](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/clock.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/clock.png?raw=true)
 
     - 通話画面（ラズパイ）
 
-    [![通話画面](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk.png?raw=true)
+    [![通話画面](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/talk.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/talk.png?raw=true)
 
     - 通話画面（スマホ）
 
-    [<img src="https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true" width="50%">](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true)
+    [<img src="https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/talk_smartphone.png?raw=true" width="50%">](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/presentation/talk_smartphone.png?raw=true)
 
 - アプリケーション本体の処理
 
@@ -158,13 +158,13 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
         - 飲み物が置かれた状態か判定
 
-        - [音声認識によるトークレベルの推定](https://github.com/RyogaTakao/HackAichi2020/blob/master/src/makeConversationLevel.py)（julius）
+        - [音声認識によるトークレベルの推定](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/src/makeConversationLevel.py)（julius）
 
         - 画面切り替え（kioskモード）
 
     - Cloud上（Node-RED）
 
-        - [ビデオチャット](https://github.com/RyogaTakao/HackAichi2020/blob/master/src/video_chat.json)（skyway）
+        - [ビデオチャット](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/src/video_chat.json)（skyway）
 
         - ルーム情報の保持（IBM Cloudant）
 
