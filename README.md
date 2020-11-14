@@ -151,7 +151,7 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
     - 通話画面（スマホ）
 
-    [![通話画面_スマホ](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true)
+    [<img src="https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true" width="50%">](https://github.com/RyogaTakao/HackAichi2020/blob/master/presentation/talk_smartphone.png?raw=true)
 
 - アプリケーション本体の処理
 
