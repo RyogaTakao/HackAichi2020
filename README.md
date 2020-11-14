@@ -100,12 +100,11 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
 - Node-RED（ラズパイ，IBM Cloud）
 - kioskモード
-- julius
-- skyway
 
 #### API・データ
 
 - IBM Cloudant
+- julius
 - skyway
 
 #### デバイス
