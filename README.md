@@ -115,6 +115,7 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 - ラズベリーパイ用 5インチ DSIタッチLCDスクリーン
 - USBマイク
 - LEDライト
+- 光センサ
 
 #### その他
 
@@ -144,7 +145,13 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
     [![時計画面](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/clock.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/clock.png?raw=true)
 
-    - 通話画面
+    - 通話画面（ラズパイ）
+
+    [![通話画面](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/talk.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/talk.png?raw=true)
+
+    - 通話画面（スマホ）
+
+    [![通話画面_スマホ](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/talk_smartphone.png?raw=true)](https://github.com/RyogaTakao/HackAichi2020/blob/futureREADME/presentation/talk_smartphone.png?raw=true)
 
 - アプリケーション本体の処理
 
