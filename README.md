@@ -162,6 +162,8 @@ withコロナ時代における雑談の手法としては，ビデオ会議ツ�
 
         - 画面切り替え（kioskモード）
 
+        - [各システムの制御](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/src/StartUpCmand.py)
+
     - Cloud上（Node-RED）
 
         - [ビデオチャット](https://github.com/RyogaTakao/HackAichi2020_Meijo/blob/master/src/video_chat.json)（skyway）
